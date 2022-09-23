@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.7;
+    color: #777777;
+    padding: 30px;
+}
+
+header{
+    background-image: 
+    linear-gradient(to right bottom, rgba(142, 158, 252, .3),rgba(28, 62, 255, .3)),
+    url('../img/Blog\ ClassIn.jpg');
+    background-size: cover;
+    background-position: top;
+    position: relative;
+    height: 95vh;
+}
+
+.text-box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.logo{
+    height: 70px;
+} 
+
+.logo-box{
+    position: absolute;
+    top: 30px;
+    left: 30px;
+} 
+
+.heading-primary{
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 450px;
+}
+
+.heading-primary__main{
+    display: block;
+    font-size: 40px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.heading-primary__sub{
+    display: block;
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 10px;
+}
